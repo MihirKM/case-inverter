@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 	char *n = "";
 	if(argc != 2)
 	{
-		printf("Makes data inverted case every nth character\nUsage: %s [nth]\n", argv[0]);
+		printf("Usage: %s [nth]\nMakes data inverted case every nth character\n", argv[0]);
 		return 0;
 	}
 	nth = atoi(argv[1]);

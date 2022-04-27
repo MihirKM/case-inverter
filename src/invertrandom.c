@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 	char *n = "";
 	if(argc != 1)
 	{
-		printf("Makes data inverted case randomly\nUsage: %s\n", argv[0]);
+		printf("Usage: %s\nMakes data inverted case randomly\n", argv[0]);
 		return 0;
 	}
 	while(n != NULL)
